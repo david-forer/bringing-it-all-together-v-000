@@ -3,6 +3,8 @@ class Dog
   
   def intialize(:id = nil, :name, :breed)
     @name = name
+    @id = id
+    @breed = breed
     
   end
   
